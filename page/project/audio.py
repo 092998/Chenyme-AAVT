@@ -6,7 +6,7 @@ import datetime
 import streamlit as st
 import streamlit_antd_components as sac
 from styles.global_style import style
-from utils.public import (FileToMp3, OpenaiWhisperResult, runWhisperSeperateProc, translate, local_translate,
+# from utils.public import (FileToMp3, OpenaiWhisperResult, runWhisperSeperateProc, translate, local_translate,
                           generate_srt_from_result, generate_srt_from_result_2, srt_mv, parse_srt_file, convert_to_srt,
                           show_video, add_font_settings, srt_to_ass, srt_to_vtt, srt_to_sbv)
 
