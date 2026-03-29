@@ -6,7 +6,7 @@ import time
 import datetime
 import streamlit as st
 from openai import OpenAI
-from pydantic import BaseModel
+# from pydantic import BaseModel
 import streamlit_antd_components as sac
 from styles.global_style import style
 from utils.public import (FileToMp3, OpenaiWhisperResult, runWhisperSeperateProc, translate, local_translate, encode_image,
