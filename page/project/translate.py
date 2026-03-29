@@ -6,7 +6,7 @@ import streamlit as st
 from io import StringIO
 from styles.global_style import style
 import streamlit_antd_components as sac
-from utils.public import (parse_srt_file, convert_to_srt, read_srt_file, local_translate_srt, translate_srt,
+# from utils.public import (parse_srt_file, convert_to_srt, read_srt_file, local_translate_srt, translate_srt,
                           srt_to_sbv, srt_to_vtt, srt_to_ass)
 
 style()
